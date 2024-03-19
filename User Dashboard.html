@@ -1,0 +1,40 @@
+<!--User Dashboard (user_dashboard.html)-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="User Dashboard.html" class="btn btn-primary">User Dashboard</a></li>
+                <li><a href="Book Search Results.html" class="btn btn-primary">Book Search</a></li>
+                <li><a href="Borrowed Books.html" class="btn btn-primary">Borrow Book </a></li>
+                <li><a href="User Profile.html" class="btn btn-primary">User Profile </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Welcome Username</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Search for Books</h3>
+                <form action="Book Details.html" method="get">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search books">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </form>
+            </div>
+            <div class="col-md-4">
+                <h3>Borrowed Books</h3>
+                <a href="Borrowed Books.html" class="btn btn-primary">View Books</a>
+            </div>
+        </div>
+    </div>
+</body>
