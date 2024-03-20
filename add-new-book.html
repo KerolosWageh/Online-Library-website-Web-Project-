@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add New Book</title>
+</head>
+<body>
+    <h2>Add New Book Form</h2>
+    <br>
+    <form action="" method="get">
+        <div class="book-id" id="book-id">
+            <label for="book-id">Book ID:</label> <br>
+            <input type="text" name="book-id" id="book-id" required placeholder="Enter Book ID">
+        </div>
+        
+        <br>
+
+        <div class="book-name" id="book-name">
+            <label for="book-name">Book Name:</label> <br>
+            <input type="text" name="book-name" id="book-name" class="book-name"
+            required  placeholder="Enter Book Name">
+        </div>
+
+        <br>
+
+        <div class="author" id="author">
+            <label for="author">Author:</label> <br>
+            <input type="text" name="author" id="author" class="author" 
+            required placeholder="Enter Author's Name">
+        </div>
+
+        <br>
+
+        <div class="category" id="category">
+            <label for="category">Category:</label><br>
+
+            <input type="hidden" id="fiction" name="category" value="fiction" >
+            <label for="fiction">Fiction</label><br>
+            
+            <input type="radio" id="fantasy" name="category" value="fantasy" >
+            <label for="fantasy">Fantasy</label><br>
+
+            <input type="radio" id="short-story" name="category" value="short-story" >
+            <label for="short-story">Short Story</label><br>
+
+            <input type="radio" id="history" name="category" value="history" >
+            <label for="history">History</label><br>
+
+            <input type="radio" id="crime" name="category" value="crime" >
+            <label for="crime">Crime</label><br>
+
+            <input type="radio" id="essay" name="category" value="essay" >
+            <label for="essay">Essay</label><br>
+        </div>
+
+        <br>
+
+        <div class="description-of-book" id="description-of-book">
+            <label for="description-of-book">Description of Book:</label> <br>
+            <textarea rows="15" cols="40" placeholder="Enter Description of Your Book" 
+            class="description-of-book" id="description-of-book"></textarea>
+        </div>
+
+        <input type="submit" name="submit" id="submit" value="Submit">
+        <input type="reset" name="clear" id="clear" value="Clear">
+    </form>
+</body>
+</html>
