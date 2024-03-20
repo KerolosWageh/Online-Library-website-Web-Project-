@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Delete Book</title>
+</head>
+<body>
+    <h2>Delete Book</h2>
+    <form action="delete_book_process.php" method="POST">
+        <input type="hidden" name="book_id" value="1"> <!-- Use PHP to populate book ID -->
+        <p>Are you sure you want to delete this book?</p>
+        <input type="submit" value="Delete">
+    </form>
+</body>
+</html>

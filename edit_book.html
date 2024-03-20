@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Book Details</title>
+</head>
+<body>
+    <h2>Edit Book Details</h2>
+    <form action="" method="POST">
+        <div>
+            <label for="book_id">Book ID:</label><br>
+            <input type="text" name="book_id" id="book_id" value="1"  disabled><br><br>
+        </div>
+        
+        <div>
+            <label for="book_name">Book Name:</label><br>
+            <input type="text" name="book_name" id="book_name" required placeholder="Enter Book Name"><br><br>
+        </div>
+        
+        <div>
+            <label for="author">Author:</label><br>
+            <input type="text" name="author" id="author" required placeholder="Enter Author Name"><br><br>
+        </div>
+        
+        <div>
+            <label for="category">Category:</label><br>
+            <input type="text" name="category" id="category" required placeholder="Enter Category"><br><br>
+        </div>
+        
+        <div>
+            <label for="description">Description:</label><br>
+            <textarea name="description" id="description" rows="4" cols="50" required placeholder="Enter Description"></textarea><br><br>
+        </div>
+        
+        <input type="submit" value="Update">
+    </form>
+</body>
+</html>
